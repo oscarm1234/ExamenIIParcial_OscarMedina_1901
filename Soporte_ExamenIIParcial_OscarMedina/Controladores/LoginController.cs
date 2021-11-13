@@ -31,12 +31,15 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Controladores
             bool valido = userDAO.ValidarUsuario(user);
             if (valido)
             {
-                MessageBox.Show("Usuario Correcto");
+                MenuView menu = new MenuView();
+                vista.Hide();
+                menu.Show();
+                //MessageBox.Show("Usuario Correcto");
 
             }
             else
             {
-                MessageBox.Show("Usuario Correcto");
+                MessageBox.Show("Usuario incorrecto");
 
             }
 

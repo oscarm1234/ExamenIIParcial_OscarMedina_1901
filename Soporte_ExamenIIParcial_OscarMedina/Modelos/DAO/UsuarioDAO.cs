@@ -33,7 +33,33 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Modelos.DAO
             }
             return valido;
 
+        }
 
+        public bool InsertarNuevoUsuario(Usuario user )
+        {
+            try
+            {
+                StringBuilder sql = new StringBuilder();
+                sql.Append(" INSERT INTO  USUARIO ");
+                sql.Append(" VALUES (@Nombre, @Email, @Clave, @EsAdministrador); ");
+
+
+                comando.Connection = MiConexion;
+                MiConexion.Open();
+                comando.CommandType = CommandType.Text;
+                comando.CommandText = sql.ToString();
+
+                comando.Parameters.Add("@Nombre", SqlDbType.NVarChar, 50).Value = user.Nombre;
+                comando.Parameters.Add("@Email", SqlDbType.NVarChar, 50).Value = user.Email;
+                comando.Parameters.Add("@Clave", SqlDbType.NVarChar, 100).Value = user.Clave;
+                comando.Parameters.Add("@EsAdministrador", SqlDbType.Bit).Value = user.EsAdministrador;
+                comando.ExecuteNonQuery();
+                return true;
+            }
+            catch(Exception)
+            {
+                return false;
+            }
         }
     }
 }

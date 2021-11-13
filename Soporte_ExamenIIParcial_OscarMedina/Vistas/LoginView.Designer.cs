@@ -65,6 +65,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.Txt_Contra.PasswordChar = '*';
             this.Txt_Contra.Size = new System.Drawing.Size(149, 20);
             this.Txt_Contra.TabIndex = 15;
+            this.Txt_Contra.Text = "1234";
             // 
             // TxtEmail
             // 
@@ -73,6 +74,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.TxtEmail.Name = "TxtEmail";
             this.TxtEmail.Size = new System.Drawing.Size(149, 20);
             this.TxtEmail.TabIndex = 14;
+            this.TxtEmail.Text = "oscar@gmail.com";
             // 
             // label2
             // 

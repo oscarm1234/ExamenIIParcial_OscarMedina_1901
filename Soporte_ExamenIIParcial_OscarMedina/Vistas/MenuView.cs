@@ -19,6 +19,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
         UsuarioView users;
         ClientesViews clientes;
         TipoSoporteView tsoporte;
+        EstadoView estadot;
 
         private void MenuView_Load(object sender, EventArgs e)
         {
@@ -92,6 +93,25 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
         private void Soporte_FormClosed(object sender, FormClosedEventArgs e)
         {
             tsoporte = null;
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            if (estadot == null)
+            {
+                estadot = new EstadoView();
+                estadot.MdiParent = this;
+                estadot.FormClosed += Estado_FormClosed;
+                estadot.Show();
+            }
+            else
+            {
+                estadot.Activate();
+            }
+        }
+        private void Estado_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            estadot = null;
         }
     }
 

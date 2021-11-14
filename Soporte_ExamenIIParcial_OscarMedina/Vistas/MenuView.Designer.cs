@@ -40,23 +40,23 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.backStageTab2 = new Syncfusion.Windows.Forms.BackStageTab();
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.UsuariostoolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx5 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem6 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx6 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.tabbedMDIManager1 = new Syncfusion.Windows.Forms.Tools.TabbedMDIManager(this.components);
+            this.UsuariostoolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.backStage1)).BeginInit();
@@ -103,7 +103,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2013;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem3;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem4;
             this.ribbonControlAdv1.ShowContextMenu = false;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(800, 138);
@@ -229,18 +229,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx1.Size = new System.Drawing.Size(182, 82);
             this.toolStripEx1.TabIndex = 0;
             // 
-            // UsuariostoolStripButton
-            // 
-            this.UsuariostoolStripButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsuariostoolStripButton.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.trabajador_informatico_en_vista_frontal;
-            this.UsuariostoolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.UsuariostoolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.UsuariostoolStripButton.Name = "UsuariostoolStripButton";
-            this.UsuariostoolStripButton.Size = new System.Drawing.Size(133, 65);
-            this.UsuariostoolStripButton.Text = "Registro de Usuario";
-            this.UsuariostoolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.UsuariostoolStripButton.Click += new System.EventHandler(this.UsuariostoolStripButton_Click);
-            // 
             // toolStripTabItem2
             // 
             this.toolStripTabItem2.AutoSize = false;
@@ -275,18 +263,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.toolStripEx2.Size = new System.Drawing.Size(225, 82);
             this.toolStripEx2.TabIndex = 0;
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton2.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.cliente;
-            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(94, 65);
-            this.toolStripButton2.Text = "Lista Clientes";
-            this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripTabItem3
             // 
@@ -323,18 +299,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx3.Size = new System.Drawing.Size(236, 82);
             this.toolStripEx3.TabIndex = 0;
             // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton3.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.apoyo_tecnico;
-            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(169, 65);
-            this.toolStripButton3.Text = "Lista de Tipos de Soporte";
-            this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
-            // 
             // toolStripTabItem4
             // 
             this.toolStripTabItem4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -368,18 +332,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.toolStripEx4.Size = new System.Drawing.Size(244, 82);
             this.toolStripEx4.TabIndex = 0;
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.AutoSize = false;
-            this.toolStripButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton4.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.boleto;
-            this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(127, 65);
-            this.toolStripButton4.Text = "Estados De Tickets";
-            this.toolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // toolStripTabItem5
             // 
@@ -416,17 +368,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx5.Size = new System.Drawing.Size(271, 82);
             this.toolStripEx5.TabIndex = 0;
             // 
-            // toolStripButton5
-            // 
-            this.toolStripButton5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton5.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.boleto__1_;
-            this.toolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(88, 65);
-            this.toolStripButton5.Text = "Lista Tickets";
-            this.toolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // toolStripTabItem6
             // 
             this.toolStripTabItem6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -461,17 +402,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx6.Size = new System.Drawing.Size(230, 86);
             this.toolStripEx6.TabIndex = 0;
             // 
-            // toolStripButton6
-            // 
-            this.toolStripButton6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton6.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.evaluacion;
-            this.toolStripButton6.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(128, 69);
-            this.toolStripButton6.Text = "Detalles de Tickets";
-            this.toolStripButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // tabbedMDIManager1
             // 
             this.tabbedMDIManager1.AttachedTo = this;
@@ -483,6 +413,77 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.tabbedMDIManager1.ShowCloseButton = true;
             this.tabbedMDIManager1.TabStyle = typeof(Syncfusion.Windows.Forms.Tools.TabRendererDockingWhidbey);
             this.tabbedMDIManager1.ThemeName = "TabRendererDockingWhidbey";
+            // 
+            // UsuariostoolStripButton
+            // 
+            this.UsuariostoolStripButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsuariostoolStripButton.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.trabajador_informatico_en_vista_frontal;
+            this.UsuariostoolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.UsuariostoolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.UsuariostoolStripButton.Name = "UsuariostoolStripButton";
+            this.UsuariostoolStripButton.Size = new System.Drawing.Size(133, 65);
+            this.UsuariostoolStripButton.Text = "Registro de Usuario";
+            this.UsuariostoolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.UsuariostoolStripButton.Click += new System.EventHandler(this.UsuariostoolStripButton_Click);
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton2.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.cliente;
+            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(94, 65);
+            this.toolStripButton2.Text = "Lista Clientes";
+            this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton3.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.apoyo_tecnico;
+            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(169, 65);
+            this.toolStripButton3.Text = "Lista de Tipos de Soporte";
+            this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.AutoSize = false;
+            this.toolStripButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton4.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.boleto;
+            this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(127, 65);
+            this.toolStripButton4.Text = "Estados De Tickets";
+            this.toolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
+            // 
+            // toolStripButton5
+            // 
+            this.toolStripButton5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton5.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.boleto__1_;
+            this.toolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton5.Name = "toolStripButton5";
+            this.toolStripButton5.Size = new System.Drawing.Size(88, 65);
+            this.toolStripButton5.Text = "Lista Tickets";
+            this.toolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // toolStripButton6
+            // 
+            this.toolStripButton6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton6.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.evaluacion;
+            this.toolStripButton6.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton6.Name = "toolStripButton6";
+            this.toolStripButton6.Size = new System.Drawing.Size(128, 69);
+            this.toolStripButton6.Text = "Detalles de Tickets";
+            this.toolStripButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // MenuView
             // 

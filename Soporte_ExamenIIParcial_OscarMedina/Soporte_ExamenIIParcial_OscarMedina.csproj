@@ -64,15 +64,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controladores\ClienteController.cs" />
+    <Compile Include="Controladores\EstadoController.cs" />
     <Compile Include="Controladores\LoginController.cs" />
     <Compile Include="Controladores\TiposController.cs" />
     <Compile Include="Controladores\UsuarioController.cs" />
     <Compile Include="Modelos\DAO\ClienteDAO.cs" />
     <Compile Include="Modelos\DAO\Conexion.cs" />
+    <Compile Include="Modelos\DAO\EstadoDAO.cs" />
     <Compile Include="Modelos\DAO\TiposDAO.cs" />
     <Compile Include="Modelos\DAO\UsuarioDAO.cs" />
     <Compile Include="Modelos\Entidades\Cliente.cs" />
-    <Compile Include="Modelos\Entidades\Soporte.cs" />
+    <Compile Include="Modelos\Entidades\Estado.cs" />
     <Compile Include="Modelos\Entidades\Tipos.cs" />
     <Compile Include="Modelos\Entidades\Usuario.cs" />
     <Compile Include="Program.cs" />
@@ -82,6 +84,12 @@
     </Compile>
     <Compile Include="Vistas\ClientesViews.Designer.cs">
       <DependentUpon>ClientesViews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\EstadoView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\EstadoView.Designer.cs">
+      <DependentUpon>EstadoView.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\LoginView.cs">
       <SubType>Form</SubType>
@@ -119,6 +127,9 @@
     </Compile>
     <EmbeddedResource Include="Vistas\ClientesViews.resx">
       <DependentUpon>ClientesViews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\EstadoView.resx">
+      <DependentUpon>EstadoView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\LoginView.resx">
       <DependentUpon>LoginView.cs</DependentUpon>

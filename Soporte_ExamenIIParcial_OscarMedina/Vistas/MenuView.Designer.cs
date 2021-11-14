@@ -32,33 +32,35 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuView));
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
-            this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx5 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripTabItem6 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx6 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.backStageView1 = new Syncfusion.Windows.Forms.BackStageView(this.components);
             this.backStage1 = new Syncfusion.Windows.Forms.BackStage();
             this.backStageSeparator1 = new Syncfusion.Windows.Forms.BackStageSeparator();
             this.backStageSeparator2 = new Syncfusion.Windows.Forms.BackStageSeparator();
             this.backStageTab1 = new Syncfusion.Windows.Forms.BackStageTab();
             this.backStageTab2 = new Syncfusion.Windows.Forms.BackStageTab();
+            this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.UsuariostoolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx5 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem6 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx6 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.tabbedMDIManager1 = new Syncfusion.Windows.Forms.Tools.TabbedMDIManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).BeginInit();
+            this.backStage1.SuspendLayout();
             this.toolStripTabItem1.Panel.SuspendLayout();
             this.toolStripEx1.SuspendLayout();
             this.toolStripTabItem2.Panel.SuspendLayout();
@@ -71,8 +73,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx5.SuspendLayout();
             this.toolStripTabItem6.Panel.SuspendLayout();
             this.toolStripEx6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).BeginInit();
-            this.backStage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ribbonControlAdv1
@@ -103,7 +103,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2013;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem2;
             this.ribbonControlAdv1.ShowContextMenu = false;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(800, 138);
@@ -112,6 +112,88 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.ribbonControlAdv1.TabIndex = 1;
             this.ribbonControlAdv1.ThemeName = "Office2013";
             this.ribbonControlAdv1.ThemeStyle.MoreCommandsStyle.PropertyGridViewBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            // 
+            // backStageView1
+            // 
+            this.backStageView1.BackStage = this.backStage1;
+            this.backStageView1.HostControl = null;
+            this.backStageView1.HostForm = this;
+            // 
+            // backStage1
+            // 
+            this.backStage1.ActiveTabFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
+            this.backStage1.AllowDrop = true;
+            this.backStage1.BackStagePanelWidth = 130;
+            this.backStage1.BeforeTouchSize = new System.Drawing.Size(814, 437);
+            this.backStage1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.backStage1.ChildItemSize = new System.Drawing.Size(80, 140);
+            this.backStage1.Controls.Add(this.backStageSeparator1);
+            this.backStage1.Controls.Add(this.backStageSeparator2);
+            this.backStage1.Controls.Add(this.backStageTab1);
+            this.backStage1.Controls.Add(this.backStageTab2);
+            this.backStage1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backStage1.ItemSize = new System.Drawing.Size(130, 40);
+            this.backStage1.Location = new System.Drawing.Point(0, 0);
+            this.backStage1.MinimumSize = new System.Drawing.Size(100, 107);
+            this.backStage1.Name = "backStage1";
+            this.backStage1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
+            this.backStage1.Size = new System.Drawing.Size(814, 437);
+            this.backStage1.TabIndex = 2;
+            this.backStage1.ThemeName = "BackStage2013Renderer";
+            this.backStage1.ThemeStyle.PrimitiveButtonStyle.DisabledNextPageImage = null;
+            this.backStage1.Visible = false;
+            // 
+            // backStageSeparator1
+            // 
+            this.backStageSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.backStageSeparator1.Location = new System.Drawing.Point(-49, 22);
+            this.backStageSeparator1.Name = "backStageSeparator1";
+            this.backStageSeparator1.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
+            this.backStageSeparator1.Size = new System.Drawing.Size(90, 1);
+            this.backStageSeparator1.TabIndex = 3;
+            this.backStageSeparator1.Text = "backStageSeparator1";
+            // 
+            // backStageSeparator2
+            // 
+            this.backStageSeparator2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
+            this.backStageSeparator2.Location = new System.Drawing.Point(-49, 34);
+            this.backStageSeparator2.Name = "backStageSeparator2";
+            this.backStageSeparator2.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
+            this.backStageSeparator2.Size = new System.Drawing.Size(90, 1);
+            this.backStageSeparator2.TabIndex = 4;
+            this.backStageSeparator2.Text = "backStageSeparator2";
+            // 
+            // backStageTab1
+            // 
+            this.backStageTab1.Accelerator = "";
+            this.backStageTab1.BackColor = System.Drawing.Color.White;
+            this.backStageTab1.Image = null;
+            this.backStageTab1.ImageSize = new System.Drawing.Size(16, 16);
+            this.backStageTab1.Location = new System.Drawing.Point(129, 0);
+            this.backStageTab1.Name = "backStageTab1";
+            this.backStageTab1.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
+            this.backStageTab1.Position = new System.Drawing.Point(11, 53);
+            this.backStageTab1.ShowCloseButton = true;
+            this.backStageTab1.Size = new System.Drawing.Size(685, 437);
+            this.backStageTab1.TabIndex = 5;
+            this.backStageTab1.Text = "Cambiar Contraseña";
+            this.backStageTab1.ThemesEnabled = false;
+            // 
+            // backStageTab2
+            // 
+            this.backStageTab2.Accelerator = "";
+            this.backStageTab2.BackColor = System.Drawing.Color.White;
+            this.backStageTab2.Image = null;
+            this.backStageTab2.ImageSize = new System.Drawing.Size(16, 16);
+            this.backStageTab2.Location = new System.Drawing.Point(129, 0);
+            this.backStageTab2.Name = "backStageTab2";
+            this.backStageTab2.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
+            this.backStageTab2.Position = new System.Drawing.Point(54, 97);
+            this.backStageTab2.ShowCloseButton = true;
+            this.backStageTab2.Size = new System.Drawing.Size(685, 437);
+            this.backStageTab2.TabIndex = 6;
+            this.backStageTab2.Text = "Cerra Sesion";
+            this.backStageTab2.ThemesEnabled = false;
             // 
             // toolStripTabItem1
             // 
@@ -126,7 +208,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripTabItem1.Panel.TabIndex = 2;
             this.toolStripTabItem1.Panel.Text = "Usuarios";
             this.toolStripTabItem1.Position = 0;
-            this.toolStripTabItem1.Size = new System.Drawing.Size(58, 19);
+            this.toolStripTabItem1.Size = new System.Drawing.Size(72, 25);
             this.toolStripTabItem1.Tag = "1";
             this.toolStripTabItem1.Text = "Usuarios";
             // 
@@ -146,6 +228,18 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.toolStripEx1.Size = new System.Drawing.Size(182, 82);
             this.toolStripEx1.TabIndex = 0;
+            // 
+            // UsuariostoolStripButton
+            // 
+            this.UsuariostoolStripButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UsuariostoolStripButton.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.trabajador_informatico_en_vista_frontal;
+            this.UsuariostoolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.UsuariostoolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.UsuariostoolStripButton.Name = "UsuariostoolStripButton";
+            this.UsuariostoolStripButton.Size = new System.Drawing.Size(133, 65);
+            this.UsuariostoolStripButton.Text = "Registro de Usuario";
+            this.UsuariostoolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.UsuariostoolStripButton.Click += new System.EventHandler(this.UsuariostoolStripButton_Click);
             // 
             // toolStripTabItem2
             // 
@@ -182,6 +276,18 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx2.Size = new System.Drawing.Size(225, 82);
             this.toolStripEx2.TabIndex = 0;
             // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton2.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.cliente;
+            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(94, 65);
+            this.toolStripButton2.Text = "Lista Clientes";
+            this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
             // toolStripTabItem3
             // 
             this.toolStripTabItem3.AutoSize = false;
@@ -217,6 +323,17 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx3.Size = new System.Drawing.Size(236, 82);
             this.toolStripEx3.TabIndex = 0;
             // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton3.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.apoyo_tecnico;
+            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(169, 65);
+            this.toolStripButton3.Text = "Lista de Tipos de Soporte";
+            this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
             // toolStripTabItem4
             // 
             this.toolStripTabItem4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -230,7 +347,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripTabItem4.Panel.TabIndex = 5;
             this.toolStripTabItem4.Panel.Text = "Estado Ticket";
             this.toolStripTabItem4.Position = 3;
-            this.toolStripTabItem4.Size = new System.Drawing.Size(81, 19);
+            this.toolStripTabItem4.Size = new System.Drawing.Size(95, 25);
             this.toolStripTabItem4.Tag = "4";
             this.toolStripTabItem4.Text = "Estado Ticket";
             // 
@@ -251,6 +368,18 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx4.Size = new System.Drawing.Size(244, 82);
             this.toolStripEx4.TabIndex = 0;
             // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.AutoSize = false;
+            this.toolStripButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton4.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.boleto;
+            this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(127, 65);
+            this.toolStripButton4.Text = "Estados De Tickets";
+            this.toolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
             // toolStripTabItem5
             // 
             this.toolStripTabItem5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -264,7 +393,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripTabItem5.Panel.TabIndex = 6;
             this.toolStripTabItem5.Panel.Text = "Tickets";
             this.toolStripTabItem5.Position = 4;
-            this.toolStripTabItem5.Size = new System.Drawing.Size(48, 19);
+            this.toolStripTabItem5.Size = new System.Drawing.Size(62, 25);
             this.toolStripTabItem5.Tag = "5";
             this.toolStripTabItem5.Text = "Tickets";
             this.toolStripTabItem5.Click += new System.EventHandler(this.toolStripTabItem5_Click);
@@ -286,6 +415,17 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx5.Size = new System.Drawing.Size(271, 82);
             this.toolStripEx5.TabIndex = 0;
             // 
+            // toolStripButton5
+            // 
+            this.toolStripButton5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripButton5.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.boleto__1_;
+            this.toolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton5.Name = "toolStripButton5";
+            this.toolStripButton5.Size = new System.Drawing.Size(88, 65);
+            this.toolStripButton5.Text = "Lista Tickets";
+            this.toolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
             // toolStripTabItem6
             // 
             this.toolStripTabItem6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -299,7 +439,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripTabItem6.Panel.TabIndex = 7;
             this.toolStripTabItem6.Panel.Text = "Detalle";
             this.toolStripTabItem6.Position = 5;
-            this.toolStripTabItem6.Size = new System.Drawing.Size(49, 19);
+            this.toolStripTabItem6.Size = new System.Drawing.Size(63, 25);
             this.toolStripTabItem6.Tag = "6";
             this.toolStripTabItem6.Text = "Detalle";
             // 
@@ -319,145 +459,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripEx6.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.toolStripEx6.Size = new System.Drawing.Size(230, 86);
             this.toolStripEx6.TabIndex = 0;
-            // 
-            // backStageView1
-            // 
-            this.backStageView1.BackStage = this.backStage1;
-            this.backStageView1.HostControl = null;
-            this.backStageView1.HostForm = this;
-            // 
-            // backStage1
-            // 
-            this.backStage1.ActiveTabFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold);
-            this.backStage1.AllowDrop = true;
-            this.backStage1.BackStagePanelWidth = 138;
-            this.backStage1.BeforeTouchSize = new System.Drawing.Size(814, 437);
-            this.backStage1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.backStage1.ChildItemSize = new System.Drawing.Size(80, 140);
-            this.backStage1.Controls.Add(this.backStageSeparator1);
-            this.backStage1.Controls.Add(this.backStageSeparator2);
-            this.backStage1.Controls.Add(this.backStageTab1);
-            this.backStage1.Controls.Add(this.backStageTab2);
-            this.backStage1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backStage1.ItemSize = new System.Drawing.Size(138, 40);
-            this.backStage1.Location = new System.Drawing.Point(4, 53);
-            this.backStage1.MinimumSize = new System.Drawing.Size(100, 124);
-            this.backStage1.Name = "backStage1";
-            this.backStage1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
-            this.backStage1.Size = new System.Drawing.Size(814, 437);
-            this.backStage1.TabIndex = 2;
-            this.backStage1.ThemeName = "BackStage2013Renderer";
-            this.backStage1.ThemeStyle.PrimitiveButtonStyle.DisabledNextPageImage = null;
-            this.backStage1.Visible = false;
-            // 
-            // backStageSeparator1
-            // 
-            this.backStageSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.backStageSeparator1.Location = new System.Drawing.Point(-49, 22);
-            this.backStageSeparator1.Name = "backStageSeparator1";
-            this.backStageSeparator1.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
-            this.backStageSeparator1.Size = new System.Drawing.Size(98, 1);
-            this.backStageSeparator1.TabIndex = 3;
-            this.backStageSeparator1.Text = "backStageSeparator1";
-            // 
-            // backStageSeparator2
-            // 
-            this.backStageSeparator2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(189)))), ((int)(((byte)(255)))));
-            this.backStageSeparator2.Location = new System.Drawing.Point(-49, 34);
-            this.backStageSeparator2.Name = "backStageSeparator2";
-            this.backStageSeparator2.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
-            this.backStageSeparator2.Size = new System.Drawing.Size(98, 1);
-            this.backStageSeparator2.TabIndex = 4;
-            this.backStageSeparator2.Text = "backStageSeparator2";
-            // 
-            // backStageTab1
-            // 
-            this.backStageTab1.Accelerator = "";
-            this.backStageTab1.BackColor = System.Drawing.Color.White;
-            this.backStageTab1.Image = null;
-            this.backStageTab1.ImageSize = new System.Drawing.Size(16, 16);
-            this.backStageTab1.Location = new System.Drawing.Point(137, 0);
-            this.backStageTab1.Name = "backStageTab1";
-            this.backStageTab1.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
-            this.backStageTab1.Position = new System.Drawing.Point(0, 0);
-            this.backStageTab1.ShowCloseButton = true;
-            this.backStageTab1.Size = new System.Drawing.Size(677, 437);
-            this.backStageTab1.TabIndex = 5;
-            this.backStageTab1.Text = "Cambiar Contraseña";
-            this.backStageTab1.ThemesEnabled = false;
-            // 
-            // backStageTab2
-            // 
-            this.backStageTab2.Accelerator = "";
-            this.backStageTab2.BackColor = System.Drawing.Color.White;
-            this.backStageTab2.Image = null;
-            this.backStageTab2.ImageSize = new System.Drawing.Size(16, 16);
-            this.backStageTab2.Location = new System.Drawing.Point(137, 0);
-            this.backStageTab2.Name = "backStageTab2";
-            this.backStageTab2.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
-            this.backStageTab2.Position = new System.Drawing.Point(0, 0);
-            this.backStageTab2.ShowCloseButton = true;
-            this.backStageTab2.Size = new System.Drawing.Size(677, 437);
-            this.backStageTab2.TabIndex = 6;
-            this.backStageTab2.Text = "Cerra Sesion";
-            this.backStageTab2.ThemesEnabled = false;
-            // 
-            // UsuariostoolStripButton
-            // 
-            this.UsuariostoolStripButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsuariostoolStripButton.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.trabajador_informatico_en_vista_frontal;
-            this.UsuariostoolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.UsuariostoolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.UsuariostoolStripButton.Name = "UsuariostoolStripButton";
-            this.UsuariostoolStripButton.Size = new System.Drawing.Size(133, 65);
-            this.UsuariostoolStripButton.Text = "Registro de Usuario";
-            this.UsuariostoolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.UsuariostoolStripButton.Click += new System.EventHandler(this.UsuariostoolStripButton_Click);
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton2.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.cliente;
-            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(94, 65);
-            this.toolStripButton2.Text = "Lista Clientes";
-            this.toolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton3.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.apoyo_tecnico;
-            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(169, 65);
-            this.toolStripButton3.Text = "Lista de Tipos de Soporte";
-            this.toolStripButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.AutoSize = false;
-            this.toolStripButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton4.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.boleto;
-            this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(127, 65);
-            this.toolStripButton4.Text = "Estados De Tickets";
-            this.toolStripButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // toolStripButton5
-            // 
-            this.toolStripButton5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripButton5.Image = global::Soporte_ExamenIIParcial_OscarMedina.Properties.Resources.boleto__1_;
-            this.toolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(88, 65);
-            this.toolStripButton5.Text = "Lista Tickets";
-            this.toolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // toolStripButton6
             // 
@@ -498,6 +499,8 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).EndInit();
             this.ribbonControlAdv1.ResumeLayout(false);
             this.ribbonControlAdv1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).EndInit();
+            this.backStage1.ResumeLayout(false);
             this.toolStripTabItem1.Panel.ResumeLayout(false);
             this.toolStripEx1.ResumeLayout(false);
             this.toolStripEx1.PerformLayout();
@@ -516,8 +519,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.toolStripTabItem6.Panel.ResumeLayout(false);
             this.toolStripEx6.ResumeLayout(false);
             this.toolStripEx6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).EndInit();
-            this.backStage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

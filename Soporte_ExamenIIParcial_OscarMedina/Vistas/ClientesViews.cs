@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Soporte_ExamenIIParcial_OscarMedina.Controladores;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
         public ClientesViews()
         {
             InitializeComponent();
+            ClienteController controlador = new ClienteController(this);
         }
     }
 }

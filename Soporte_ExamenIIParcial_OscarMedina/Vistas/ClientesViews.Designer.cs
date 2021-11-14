@@ -29,6 +29,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bttcancelar = new System.Windows.Forms.Button();
             this.btteliminar = new System.Windows.Forms.Button();
@@ -47,8 +48,10 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -109,11 +112,11 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             // 
             // bttimagen
             // 
+            this.bttimagen.Enabled = false;
             this.bttimagen.Location = new System.Drawing.Point(701, 246);
             this.bttimagen.Name = "bttimagen";
             this.bttimagen.Size = new System.Drawing.Size(75, 23);
             this.bttimagen.TabIndex = 59;
-            this.bttimagen.Text = "Imagen...";
             this.bttimagen.UseVisualStyleBackColor = true;
             // 
             // txtdireccion
@@ -207,12 +210,17 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.Enabled = false;
             this.pictureBox1.Location = new System.Drawing.Point(481, 6);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(295, 234);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 58;
             this.pictureBox1.TabStop = false;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // ClientesViews
             // 
@@ -241,6 +249,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             this.Text = "ClientesViews";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -266,5 +275,6 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
         public System.Windows.Forms.TextBox txtid;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

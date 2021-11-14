@@ -33,11 +33,20 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Modelos.DAO
                 comando.Parameters.Add("@Nombre", SqlDbType.NVarChar, 50).Value = cliente.Nombre;
                 comando.Parameters.Add("@Email", SqlDbType.NVarChar, 50).Value = cliente.Email;
                 comando.Parameters.Add("@Direccion", SqlDbType.NVarChar,50).Value = cliente.Direccion;
-                comando.Parameters.Add("@Foto", SqlDbType.Image).Value = cliente.Foto;
+
+                if (cliente.Foto != null)
+                {
+                    comando.Parameters.Add("@Foto", SqlDbType.Image).Value = cliente.Foto;
+                }
+                else
+                {
+                    comando.Parameters.Add("@Foto", SqlDbType.Image).Value = DBNull.Value;
+                }
+
                 comando.ExecuteNonQuery();
-                inserto = true;
                 MiConexion.Close();
-                return true;
+                inserto = true;
+     
             }
             catch (Exception)
             {
@@ -90,9 +99,18 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Modelos.DAO
                 comando.Parameters.Add("@Nombre", SqlDbType.NVarChar, 50).Value = cliente.Nombre;
                 comando.Parameters.Add("@Email", SqlDbType.NVarChar, 50).Value = cliente.Email;
                 comando.Parameters.Add("@Direcion", SqlDbType.NVarChar, 50).Value = cliente.Direccion;
-                comando.Parameters.Add("@Foto", SqlDbType.Image).Value = cliente.Foto;
-                comando.ExecuteNonQuery();
+                if (cliente.Foto != null)
+                {
+                    comando.Parameters.Add("@Foto", SqlDbType.Image).Value = cliente.Foto;
+                }
+                else
+                {
+                    comando.Parameters.Add("@Foto", SqlDbType.Image).Value = DBNull.Value;
+                }
 
+                comando.ExecuteNonQuery();
+                actualizo = true;
+                MiConexion.Close();
 
             }
             catch (Exception)

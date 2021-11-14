@@ -17,6 +17,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             InitializeComponent();
         }
         UsuarioView users;
+        ClientesViews clientes;
 
         private void MenuView_Load(object sender, EventArgs e)
         {
@@ -53,6 +54,25 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             users = null;
         }
 
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            if (clientes == null)
+            {
+                clientes = new ClientesViews();
+                clientes.MdiParent = this;
+                clientes.FormClosed += Clientes_FormClosed;
+                clientes.Show();
+            }
+            else
+            {
+                clientes.Activate();
+            }
+        }
+
+        private void Clientes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            clientes = null;
+        }
     }
 
 }

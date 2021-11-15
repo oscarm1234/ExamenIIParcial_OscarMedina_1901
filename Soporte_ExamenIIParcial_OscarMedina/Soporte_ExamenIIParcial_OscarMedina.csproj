@@ -66,15 +66,18 @@
     <Compile Include="Controladores\ClienteController.cs" />
     <Compile Include="Controladores\EstadoController.cs" />
     <Compile Include="Controladores\LoginController.cs" />
+    <Compile Include="Controladores\TicketController.cs" />
     <Compile Include="Controladores\TiposController.cs" />
     <Compile Include="Controladores\UsuarioController.cs" />
     <Compile Include="Modelos\DAO\ClienteDAO.cs" />
     <Compile Include="Modelos\DAO\Conexion.cs" />
     <Compile Include="Modelos\DAO\EstadoDAO.cs" />
+    <Compile Include="Modelos\DAO\TicketDAO.cs" />
     <Compile Include="Modelos\DAO\TiposDAO.cs" />
     <Compile Include="Modelos\DAO\UsuarioDAO.cs" />
     <Compile Include="Modelos\Entidades\Cliente.cs" />
     <Compile Include="Modelos\Entidades\Estado.cs" />
+    <Compile Include="Modelos\Entidades\Ticket.cs" />
     <Compile Include="Modelos\Entidades\Tipos.cs" />
     <Compile Include="Modelos\Entidades\Usuario.cs" />
     <Compile Include="Program.cs" />
@@ -102,6 +105,12 @@
     </Compile>
     <Compile Include="Vistas\MenuView.Designer.cs">
       <DependentUpon>MenuView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\TicketView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\TicketView.Designer.cs">
+      <DependentUpon>TicketView.cs</DependentUpon>
     </Compile>
     <Compile Include="Vistas\TipoSoporteView.cs">
       <SubType>Form</SubType>
@@ -136,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\MenuView.resx">
       <DependentUpon>MenuView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\TicketView.resx">
+      <DependentUpon>TicketView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\TipoSoporteView.resx">
       <DependentUpon>TipoSoporteView.cs</DependentUpon>

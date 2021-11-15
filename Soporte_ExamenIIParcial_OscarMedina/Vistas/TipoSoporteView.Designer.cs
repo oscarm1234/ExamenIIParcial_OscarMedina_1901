@@ -117,8 +117,10 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             // 
             this.cbsoporte.FormattingEnabled = true;
             this.cbsoporte.Items.AddRange(new object[] {
-            "Soporte de Hardware",
-            "Soporte de Software"});
+            "Incidencias Basicas",
+            "Problemas Tecnicos Mas utitilizados",
+            "Sofware",
+            "Hardware"});
             this.cbsoporte.Location = new System.Drawing.Point(260, 159);
             this.cbsoporte.Margin = new System.Windows.Forms.Padding(4);
             this.cbsoporte.Name = "cbsoporte";

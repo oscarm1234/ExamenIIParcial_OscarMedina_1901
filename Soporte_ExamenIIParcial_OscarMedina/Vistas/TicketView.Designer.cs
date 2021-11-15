@@ -1,7 +1,7 @@
 ﻿
 namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
 {
-    partial class EstadoView
+    partial class TicketView
     {
         /// <summary>
         /// Required designer variable.
@@ -30,34 +30,27 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.chbdisponible = new System.Windows.Forms.CheckBox();
             this.usuariosdatagriedviwe = new System.Windows.Forms.DataGridView();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.bttcancelar = new System.Windows.Forms.Button();
             this.btteliminar = new System.Windows.Forms.Button();
             this.bttguardar = new System.Windows.Forms.Button();
             this.bttmodificar = new System.Windows.Forms.Button();
             this.bttnuevo = new System.Windows.Forms.Button();
-            this.cbestado = new System.Windows.Forms.ComboBox();
+            this.txtdescri = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbticket = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtnum = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.txtid = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Cbx_Prioridad = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.usuariosdatagriedviwe)).BeginInit();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // chbdisponible
-            // 
-            this.chbdisponible.AutoSize = true;
-            this.chbdisponible.Location = new System.Drawing.Point(442, 119);
-            this.chbdisponible.Name = "chbdisponible";
-            this.chbdisponible.Size = new System.Drawing.Size(75, 17);
-            this.chbdisponible.TabIndex = 64;
-            this.chbdisponible.Text = "Disponible";
-            this.chbdisponible.UseVisualStyleBackColor = true;
             // 
             // usuariosdatagriedviwe
             // 
@@ -65,165 +58,189 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.usuariosdatagriedviwe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.usuariosdatagriedviwe.Location = new System.Drawing.Point(3, 256);
+            this.usuariosdatagriedviwe.Location = new System.Drawing.Point(-20, 288);
             this.usuariosdatagriedviwe.Margin = new System.Windows.Forms.Padding(4);
             this.usuariosdatagriedviwe.Name = "usuariosdatagriedviwe";
-            this.usuariosdatagriedviwe.Size = new System.Drawing.Size(537, 209);
-            this.usuariosdatagriedviwe.TabIndex = 63;
+            this.usuariosdatagriedviwe.Size = new System.Drawing.Size(713, 206);
+            this.usuariosdatagriedviwe.TabIndex = 65;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.bttcancelar);
+            this.groupBox1.Controls.Add(this.btteliminar);
+            this.groupBox1.Controls.Add(this.bttguardar);
+            this.groupBox1.Controls.Add(this.bttmodificar);
+            this.groupBox1.Controls.Add(this.bttnuevo);
+            this.groupBox1.Location = new System.Drawing.Point(43, 213);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(542, 68);
+            this.groupBox1.TabIndex = 64;
+            this.groupBox1.TabStop = false;
             // 
             // bttcancelar
             // 
             this.bttcancelar.Enabled = false;
-            this.bttcancelar.Location = new System.Drawing.Point(442, 188);
+            this.bttcancelar.Location = new System.Drawing.Point(436, 16);
             this.bttcancelar.Margin = new System.Windows.Forms.Padding(4);
             this.bttcancelar.Name = "bttcancelar";
             this.bttcancelar.Size = new System.Drawing.Size(98, 38);
-            this.bttcancelar.TabIndex = 62;
+            this.bttcancelar.TabIndex = 53;
             this.bttcancelar.Text = "Cancelar";
             this.bttcancelar.UseVisualStyleBackColor = true;
             // 
             // btteliminar
             // 
-            this.btteliminar.Location = new System.Drawing.Point(336, 188);
+            this.btteliminar.Location = new System.Drawing.Point(330, 16);
             this.btteliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btteliminar.Name = "btteliminar";
             this.btteliminar.Size = new System.Drawing.Size(98, 38);
-            this.btteliminar.TabIndex = 61;
+            this.btteliminar.TabIndex = 52;
             this.btteliminar.Text = "Eliminar";
             this.btteliminar.UseVisualStyleBackColor = true;
             // 
             // bttguardar
             // 
-            this.bttguardar.Location = new System.Drawing.Point(230, 188);
+            this.bttguardar.Location = new System.Drawing.Point(224, 16);
             this.bttguardar.Margin = new System.Windows.Forms.Padding(4);
             this.bttguardar.Name = "bttguardar";
             this.bttguardar.Size = new System.Drawing.Size(98, 38);
-            this.bttguardar.TabIndex = 60;
+            this.bttguardar.TabIndex = 51;
             this.bttguardar.Text = "Guardar";
             this.bttguardar.UseVisualStyleBackColor = true;
             // 
             // bttmodificar
             // 
-            this.bttmodificar.Location = new System.Drawing.Point(124, 188);
+            this.bttmodificar.Location = new System.Drawing.Point(118, 16);
             this.bttmodificar.Margin = new System.Windows.Forms.Padding(4);
             this.bttmodificar.Name = "bttmodificar";
             this.bttmodificar.Size = new System.Drawing.Size(98, 38);
-            this.bttmodificar.TabIndex = 59;
+            this.bttmodificar.TabIndex = 50;
             this.bttmodificar.Text = "Modificar";
             this.bttmodificar.UseVisualStyleBackColor = true;
             // 
             // bttnuevo
             // 
-            this.bttnuevo.Location = new System.Drawing.Point(18, 188);
+            this.bttnuevo.Location = new System.Drawing.Point(12, 16);
             this.bttnuevo.Margin = new System.Windows.Forms.Padding(4);
             this.bttnuevo.Name = "bttnuevo";
             this.bttnuevo.Size = new System.Drawing.Size(98, 38);
-            this.bttnuevo.TabIndex = 58;
+            this.bttnuevo.TabIndex = 49;
             this.bttnuevo.Text = "Nuevo";
             this.bttnuevo.UseVisualStyleBackColor = true;
             // 
-            // cbestado
+            // txtdescri
             // 
-            this.cbestado.FormattingEnabled = true;
-            this.cbestado.Items.AddRange(new object[] {
-            "Sin resolver",
-            "Abierto",
-            "En espera ",
-            "Cerrado"});
-            this.cbestado.Location = new System.Drawing.Point(188, 77);
-            this.cbestado.Margin = new System.Windows.Forms.Padding(4);
-            this.cbestado.Name = "cbestado";
-            this.cbestado.Size = new System.Drawing.Size(245, 21);
-            this.cbestado.TabIndex = 57;
+            this.txtdescri.Location = new System.Drawing.Point(222, 193);
+            this.txtdescri.Margin = new System.Windows.Forms.Padding(5);
+            this.txtdescri.Name = "txtdescri";
+            this.txtdescri.Size = new System.Drawing.Size(373, 20);
+            this.txtdescri.TabIndex = 63;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(40, 193);
+            this.label4.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 13);
+            this.label4.TabIndex = 62;
+            this.label4.Text = "Asunto del Ticket:";
+            // 
+            // cbticket
+            // 
+            this.cbticket.FormattingEnabled = true;
+            this.cbticket.Items.AddRange(new object[] {
+            "Valido",
+            "Expirado",
+            "Renovado"});
+            this.cbticket.Location = new System.Drawing.Point(222, 142);
+            this.cbticket.Margin = new System.Windows.Forms.Padding(4);
+            this.cbticket.Name = "cbticket";
+            this.cbticket.Size = new System.Drawing.Size(373, 21);
+            this.cbticket.TabIndex = 61;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 84);
+            this.label3.Location = new System.Drawing.Point(40, 143);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 13);
-            this.label3.TabIndex = 56;
+            this.label3.TabIndex = 60;
             this.label3.Text = "Estado del Ticket:";
             // 
-            // txtid
+            // txtnum
             // 
-            this.txtid.Location = new System.Drawing.Point(188, 37);
-            this.txtid.Margin = new System.Windows.Forms.Padding(4);
-            this.txtid.Name = "txtid";
-            this.txtid.ReadOnly = true;
-            this.txtid.Size = new System.Drawing.Size(245, 20);
-            this.txtid.TabIndex = 55;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 43);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 13);
-            this.label1.TabIndex = 54;
-            this.label1.Text = "ID:";
-            // 
-            // Cbx_Prioridad
-            // 
-            this.Cbx_Prioridad.FormattingEnabled = true;
-            this.Cbx_Prioridad.Items.AddRange(new object[] {
-            "Alta",
-            "Baja",
-            "Leve"});
-            this.Cbx_Prioridad.Location = new System.Drawing.Point(188, 113);
-            this.Cbx_Prioridad.Margin = new System.Windows.Forms.Padding(4);
-            this.Cbx_Prioridad.Name = "Cbx_Prioridad";
-            this.Cbx_Prioridad.Size = new System.Drawing.Size(245, 21);
-            this.Cbx_Prioridad.TabIndex = 66;
+            this.txtnum.Location = new System.Drawing.Point(222, 93);
+            this.txtnum.Margin = new System.Windows.Forms.Padding(5);
+            this.txtnum.Name = "txtnum";
+            this.txtnum.ReadOnly = true;
+            this.txtnum.Size = new System.Drawing.Size(373, 20);
+            this.txtnum.TabIndex = 59;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 120);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(40, 93);
+            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(101, 13);
-            this.label2.TabIndex = 65;
-            this.label2.Text = "Prioridad del Ticket:";
+            this.label2.Size = new System.Drawing.Size(95, 13);
+            this.label2.TabIndex = 58;
+            this.label2.Text = "Numero de Ticket:";
+            // 
+            // txtid
+            // 
+            this.txtid.Location = new System.Drawing.Point(222, 41);
+            this.txtid.Margin = new System.Windows.Forms.Padding(5);
+            this.txtid.Name = "txtid";
+            this.txtid.ReadOnly = true;
+            this.txtid.Size = new System.Drawing.Size(373, 20);
+            this.txtid.TabIndex = 57;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(40, 41);
+            this.label1.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(21, 13);
+            this.label1.TabIndex = 56;
+            this.label1.Text = "ID:";
             // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // label4
+            // label5
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(212, 9);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 13);
-            this.label4.TabIndex = 67;
-            this.label4.Text = "ESTADO DEL TICKET";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(303, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(82, 24);
+            this.label5.TabIndex = 66;
+            this.label5.Text = "TICKET";
             // 
-            // EstadoView
+            // TicketView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(545, 465);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.Cbx_Prioridad);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.chbdisponible);
+            this.ClientSize = new System.Drawing.Size(684, 497);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.usuariosdatagriedviwe);
-            this.Controls.Add(this.bttcancelar);
-            this.Controls.Add(this.btteliminar);
-            this.Controls.Add(this.bttguardar);
-            this.Controls.Add(this.bttmodificar);
-            this.Controls.Add(this.bttnuevo);
-            this.Controls.Add(this.cbestado);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.txtdescri);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.cbticket);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtnum);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtid);
             this.Controls.Add(this.label1);
-            this.Name = "EstadoView";
-            this.Text = "EstadoView";
-            this.Load += new System.EventHandler(this.EstadoView_Load);
+            this.Name = "TicketView";
+            this.Text = "Ticket";
             ((System.ComponentModel.ISupportInitialize)(this.usuariosdatagriedviwe)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -231,20 +248,23 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
         }
 
         #endregion
-        public System.Windows.Forms.CheckBox chbdisponible;
+
         public System.Windows.Forms.DataGridView usuariosdatagriedviwe;
+        public System.Windows.Forms.GroupBox groupBox1;
         public System.Windows.Forms.Button bttcancelar;
         public System.Windows.Forms.Button btteliminar;
         public System.Windows.Forms.Button bttguardar;
         public System.Windows.Forms.Button bttmodificar;
         public System.Windows.Forms.Button bttnuevo;
-        public System.Windows.Forms.ComboBox cbestado;
+        public System.Windows.Forms.TextBox txtdescri;
+        public System.Windows.Forms.Label label4;
+        public System.Windows.Forms.ComboBox cbticket;
         public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox txtnum;
+        public System.Windows.Forms.Label label2;
         public System.Windows.Forms.TextBox txtid;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.ComboBox Cbx_Prioridad;
-        public System.Windows.Forms.Label label2;
         public System.Windows.Forms.ErrorProvider errorProvider1;
-        private System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label5;
     }
 }

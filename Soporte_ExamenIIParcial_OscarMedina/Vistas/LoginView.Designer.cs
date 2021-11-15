@@ -39,7 +39,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             // 
             // bttcancelar
             // 
-            this.bttcancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttcancelar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttcancelar.Location = new System.Drawing.Point(294, 130);
             this.bttcancelar.Name = "bttcancelar";
             this.bttcancelar.Size = new System.Drawing.Size(75, 23);
@@ -49,7 +49,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             // 
             // bttaceptar
             // 
-            this.bttaceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttaceptar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttaceptar.Location = new System.Drawing.Point(189, 130);
             this.bttaceptar.Name = "bttaceptar";
             this.bttaceptar.Size = new System.Drawing.Size(75, 23);
@@ -59,40 +59,40 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             // 
             // Txt_Contra
             // 
-            this.Txt_Contra.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Contra.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Contra.Location = new System.Drawing.Point(211, 70);
             this.Txt_Contra.Name = "Txt_Contra";
             this.Txt_Contra.PasswordChar = '*';
-            this.Txt_Contra.Size = new System.Drawing.Size(149, 20);
+            this.Txt_Contra.Size = new System.Drawing.Size(149, 22);
             this.Txt_Contra.TabIndex = 15;
             this.Txt_Contra.Text = "1234";
             // 
             // TxtEmail
             // 
-            this.TxtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEmail.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtEmail.Location = new System.Drawing.Point(211, 29);
             this.TxtEmail.Name = "TxtEmail";
-            this.TxtEmail.Size = new System.Drawing.Size(149, 20);
+            this.TxtEmail.Size = new System.Drawing.Size(149, 22);
             this.TxtEmail.TabIndex = 14;
             this.TxtEmail.Text = "oscar@gmail.com";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(107, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 13);
+            this.label2.Size = new System.Drawing.Size(69, 16);
             this.label2.TabIndex = 13;
             this.label2.Text = "Contraseña";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(136, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.Size = new System.Drawing.Size(36, 16);
             this.label1.TabIndex = 12;
             this.label1.Text = "Email";
             // 
@@ -100,6 +100,7 @@ namespace Soporte_ExamenIIParcial_OscarMedina.Vistas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(537, 220);
             this.Controls.Add(this.bttcancelar);
             this.Controls.Add(this.bttaceptar);
